@@ -24,3 +24,6 @@ sample-*.tar
 
 # Temporary files, for example, from tests.
 /tmp/
+
+# Other files
+mix.lock
