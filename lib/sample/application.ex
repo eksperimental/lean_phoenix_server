@@ -10,6 +10,7 @@ defmodule Sample.Application do
     children = [
       # Starts a worker by calling: Sample.Worker.start_link(arg)
       # {Sample.Worker, arg}
+      SampleWeb.Endpoint
     ]
 
     # See https://hexdocs.pm/elixir/Supervisor.html
